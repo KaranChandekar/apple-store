@@ -85,7 +85,7 @@ html {
   transform-style: preserve-3d;
   transform: rotateX(0) rotateY(20deg) rotateZ(0);
   position: relative;
-  top: -2rem;
+  top: -3rem;
   transition: transform 0.5s;
 }
 
@@ -175,6 +175,70 @@ html {
   transform: rotateY(180deg);
 }
 
+/* Controls */
+.controls {
+  position: absolute;
+  bottom: -10rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10rem;
+  height: 10rem;
+  background-color: rgba(00, 0, 0, 0.9);
+  border-radius: 50%;
+  border: 1rm solid rgba(0, 0, 0, 0.8);
+}
+
+.controls a {
+  position: absolute;
+}
+
+.controls a:nth-child(1) {
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.controls a:nth-child(2) {
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.controls a:nth-child(3) {
+  top: 50%;
+  left: 1rem;
+  transform: translateY(-50%);
+}
+
+.controls a:nth-child(4) {
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+}
+
+.controls a:nth-child(5) {
+  top: 20%;
+  right: 20%;
+  transform: rotate(45deg);
+}
+
+.controls a:nth-child(6) {
+  bottom: 20%;
+  left: 20%;
+  transform: rotate(45deg);
+}
+
+.controls i {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  opacity: 0.5;
+  transition: opacity 0.5s;
+}
+
+.controls a:hover i {
+  opacity: 1;
+}
+/* End of Controls */
 /* End of Cube */
 
 /* Banner  */
