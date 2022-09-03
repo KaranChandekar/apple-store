@@ -178,14 +178,14 @@ html {
 /* Controls */
 .controls {
   position: absolute;
-  bottom: -10rem;
+  bottom: -12rem;
   left: 50%;
   transform: translateX(-50%);
   width: 10rem;
   height: 10rem;
-  background-color: rgba(00, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
   border-radius: 50%;
-  border: 1rm solid rgba(0, 0, 0, 0.8);
+  border: 1rem solid rgba(0, 0, 0, 0.8);
 }
 
 .controls a {
@@ -193,38 +193,38 @@ html {
 }
 
 .controls a:nth-child(1) {
-  top: 1rem;
+  top: 0;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .controls a:nth-child(2) {
-  bottom: 1rem;
+  bottom: 0;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .controls a:nth-child(3) {
   top: 50%;
-  left: 1rem;
+  left: 0;
   transform: translateY(-50%);
 }
 
 .controls a:nth-child(4) {
   top: 50%;
-  right: 1rem;
+  right: 0;
   transform: translateY(-50%);
 }
 
 .controls a:nth-child(5) {
-  top: 20%;
-  right: 20%;
+  top: 10%;
+  right: 10%;
   transform: rotate(45deg);
 }
 
 .controls a:nth-child(6) {
-  bottom: 20%;
-  left: 20%;
+  bottom: 10%;
+  left: 10%;
   transform: rotate(45deg);
 }
 
