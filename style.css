@@ -591,3 +591,99 @@ html {
 /* End of Section 3 Info  */
 /* End of Section 3 Content  */
 /* End of Section 3 */
+
+/* Section 4 */
+.section-4 {
+  height: 140vh;
+  padding: 20vh 0;
+  flex-direction: column;
+  position: relative;
+}
+
+/* Section 4 Watches */
+.watches {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.watches > div {
+  position: absolute;
+}
+/* Watch Bands */
+.watch-band-img {
+  width: 28rem;
+  height: 28rem;
+  object-fit: contain;
+}
+/* End of Watch Bands */
+
+/* Watch Cases */
+.watch-cases {
+  flex-direction: column;
+}
+
+.watch-case-img {
+  width: 28rem;
+  height: 28rem;
+  object-fit: contain;
+}
+/* End of Watch Cases */
+/* End of Section 4 Watches */
+
+/* Watch Controls */
+.watch-control {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  background-color: rgba(221, 221, 221, 0.4);
+  border-radius: 5rem;
+}
+
+.watch-control i {
+  font-size: 3rem;
+  color: var(--primary-color);
+}
+
+.watch-top-control {
+  top: 20vh;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.watch-right-control {
+  top: 50%;
+  right: 2rem;
+  transform: translateY(-50%);
+}
+
+.watch-bottom-control {
+  left: 50%;
+  bottom: 13%;
+  transform: translateX(-50%);
+}
+
+.watch-left-control {
+  top: 50%;
+  left: 2rem;
+  transform: translateY(-50%);
+}
+/* End of Watch Controls */
+
+/* Watch Button */
+.watch-btn {
+  position: absolute;
+  bottom: 28vh;
+  right: 33%;
+  width: 12rem;
+  height: 4.5rem;
+  background-color: var(--black-color);
+  color: var(--primary-color);
+  border: 0.1rem dashed var(--white-color);
+  border-radius: 4rem;
+  font-size: 1.5rem;
+  font-weight: 200;
+  cursor: pointer;
+}
+/* End of Watch Button */
+/* End of Section 4 */
