@@ -1,9 +1,11 @@
 // Common JS
-document.querySelectorAll(".watch-control, .controls a, .iphone-btn").forEach((control) => {
-  control.addEventListener("click", (e) => {
-    e.preventDefault();
+document
+  .querySelectorAll(".watch-control, .controls a, .iphone-btn")
+  .forEach((control) => {
+    control.addEventListener("click", (e) => {
+      e.preventDefault();
+    });
   });
-});
 // End of Common JS
 
 // Cube
@@ -96,7 +98,7 @@ const slideshow = () => {
       divs[0].classList.add("change");
       a = 1;
     }
-  }, 20000);
+  }, 10000);
 };
 
 slideshow();
