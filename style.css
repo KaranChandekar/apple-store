@@ -14,6 +14,7 @@
 /* By default 1rem == 16px  */
 html {
   font-size: 62.5%; /* Now 1rem == 10px */
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -766,3 +767,26 @@ html {
 /* End of Section 5 Buttons */
 /* End of Section 5 Content */
 /* End of Section 5 */
+
+/* Section 6 */
+.section-6 {
+  width: 100%;
+  height: 40vh;
+  position: relative;
+}
+
+.icon-link {
+  margin: 0 3rem;
+}
+
+.icon-link img {
+  width: 8rem;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 5rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+/* End of Section 6 */
