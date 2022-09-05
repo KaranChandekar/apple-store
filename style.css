@@ -607,10 +607,16 @@ html {
   height: 100%;
   overflow: hidden;
 }
+
 .watches > div {
   position: absolute;
 }
+
 /* Watch Bands */
+.watch-bands {
+  transition: margin-right 1s;
+}
+
 .watch-band-img {
   width: 28rem;
   height: 28rem;
@@ -621,6 +627,7 @@ html {
 /* Watch Cases */
 .watch-cases {
   flex-direction: column;
+  transition: margin-top 1s;
 }
 
 .watch-case-img {
@@ -638,6 +645,11 @@ html {
   height: 4rem;
   background-color: rgba(221, 221, 221, 0.4);
   border-radius: 5rem;
+}
+
+.hideControl {
+  opacity: 0;
+  visibility: hidden;
 }
 
 .watch-control i {
@@ -673,7 +685,7 @@ html {
 /* Watch Button */
 .watch-btn {
   position: absolute;
-  bottom: 28vh;
+  bottom: 30vh;
   right: 33%;
   width: 12rem;
   height: 4.5rem;
