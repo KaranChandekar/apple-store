@@ -790,3 +790,243 @@ html {
   letter-spacing: 0.1rem;
 }
 /* End of Section 6 */
+
+/* Responsive */
+@media (max-width: 1400px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 1100px) {
+  html {
+    font-size: 50%;
+  }
+
+  .navbar-link {
+    font-weight: 700;
+  }
+
+  .watch-btn {
+    bottom: 35vh;
+    right: 25%;
+  }
+}
+
+@media (max-width: 900px) {
+  .cube {
+    width: 20rem;
+    height: 40rem;
+  }
+
+  .section-3-content {
+    width: 90%;
+  }
+
+  .loading-wrapper {
+    width: 70%;
+  }
+
+  .loading i {
+    font-size: 6rem;
+  }
+
+  .airpods-buttons {
+    top: 80%;
+  }
+}
+
+@media (max-width: 700px) {
+  .logo {
+    top: 0;
+    left: 2rem;
+  }
+
+  .logo i {
+    font-size: 7rem;
+  }
+
+  .navbar {
+    top: 2.5rem;
+    right: 3%;
+  }
+
+  .navbar-link {
+    margin: 0 2.5rem;
+  }
+
+  .controls {
+    display: none;
+  }
+
+  .cube-wrapper {
+    opacity: 0.7;
+  }
+
+  .cube {
+    top: 3rem;
+  }
+
+  .section-1-banner {
+    position: absolute;
+  }
+
+  .section-1-banner h1 {
+    position: relative;
+    left: -5rem;
+  }
+
+  .section-1-banner h1::first-letter {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .section-1-banner button:hover {
+    clip-path: polygon(
+      50% 0%,
+      81% 5%,
+      100% 0,
+      100% 100%,
+      80% 95%,
+      50% 100%,
+      20% 95%,
+      0 100%,
+      0 0,
+      23% 5%
+    );
+  }
+
+  .iphones {
+    height: 70vh;
+    width: 70vh;
+  }
+
+  .watch-btn {
+    right: 15%;
+    bottom: 30vh;
+  }
+
+  .airpods-img-1 {
+    display: none;
+  }
+
+  .airpods .airpods-img-2 {
+    width: 100%;
+  }
+
+  .airpods-buttons {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+  }
+
+  .airpods-btn {
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    box-shadow: 0.1rem 0.1rem 0.1rem #ddd;
+    margin: 0 0;
+  }
+
+  .icon-link {
+    margin: 0 2rem;
+  }
+}
+
+@media (max-width: 550px) {
+  html {
+    font-size: 45%;
+  }
+  .navbar-link {
+    margin: 0 1.5rem;
+  }
+
+  .section-2-heading {
+    font-size: 8rem;
+  }
+
+  .section-3-heading {
+    font-size: 8rem;
+  }
+
+  .macbook-info-heading {
+    font-size: 5rem;
+  }
+
+  .macbook-btn {
+    width: 15rem;
+    height: 3rem;
+    font-size: 1.3rem;
+  }
+
+  .airpods-buttons {
+    width: 50rem;
+    text-align: center;
+  }
+
+  .icon-link img {
+    width: 8rem;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 40%;
+  }
+
+  .logo {
+    top: 10rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .navbar {
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+  }
+
+  .section-1-banner p {
+    text-align: center;
+  }
+
+  .iphones {
+    width: 75vw;
+  }
+
+  .section-3-heading {
+    font-size: 6rem;
+  }
+
+  .macbook-info {
+    width: 40rem;
+  }
+
+  .macbook-info-heading {
+    font-size: 3rem;
+  }
+
+  .macbook-price {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+
+  .watch-btn {
+    right: 5%;
+    bottom: 35vh;
+  }
+
+  .airpods-buttons {
+    width: 35rem;
+    top: 80%;
+  }
+
+  .icon-link {
+    margin: 1rem;
+  }
+
+  .icon-link img {
+    width: 6rem;
+  }
+}
+/* End of Responsive */
