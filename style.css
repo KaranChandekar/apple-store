@@ -986,6 +986,10 @@ html {
     width: max-content;
   }
 
+  .section-1-banner h1 {
+    font-size: 6rem;
+  }
+
   .section-1-banner p {
     text-align: center;
   }
