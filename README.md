@@ -2,6 +2,11 @@
 
 Fully responsive Apple eCommerce website using html, css and javascript.
 
+## Languages
+
+- HTML
+- CSS
+- JavaScript
 
 ## Demo
 
