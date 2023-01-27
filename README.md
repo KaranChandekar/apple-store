@@ -6,6 +6,9 @@ Fully responsive Apple eCommerce website using html, css and javascript.
 - CSS
 - JavaScript
 
+## Screenshot
+![Screenshot (206)](https://user-images.githubusercontent.com/93200960/215094737-297ed4d8-78c7-4014-b3d9-ef93a1d603c0.png)
+
 ## Demo
 https://user-images.githubusercontent.com/93200960/196762497-00fd8c9e-268f-4275-a035-9bcbcfac9625.mp4
 
